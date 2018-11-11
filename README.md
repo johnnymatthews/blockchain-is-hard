@@ -14,3 +14,9 @@ If you wanna help me out and write an article or whatever:
 ## Suggestions
 
 Want to see an article but don't know how to write it? [Create an issue](https://github.com/mohnjatthews/blockchain-is-hard/issues)!
+
+## Thanks to
+
+- The Twitter Bootstrap team for creating Bootstrap 4!
+- [David Miller](http://davidmiller.io/) from [Blackrock Digital](http://blackrockdigital.io/) for creating the [Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio) template that this site is heavily based off.
+- [The Aion Foundation](https://aion.network/) for guidance and article help.
