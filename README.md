@@ -2,6 +2,8 @@
 
 It's pretty much all in the title really. Blockchain is hard. So I've thrown together this site to help people understand blockchain concepts. I'm hoping that every article will be self-contained, and won't rely on the reader to have read other parts of the site first, although I don't know how feasible this is. I'm also trying to not use any acronyms. Acronyms are dumb.
 
+You can view a [working example copy of the site right here](https://naughty-nightingale-a24cc5.netlify.com/). It's being [hosted by Netlify](https://www.netlify.com/), so big thanks to them.
+
 ## Contribute
 
 If you wanna help me out and write an article or whatever:
@@ -20,3 +22,4 @@ Want to see an article but don't know how to write it? [Create an issue](https:/
 - The Twitter Bootstrap team for creating Bootstrap 4!
 - [David Miller](http://davidmiller.io/) from [Blackrock Digital](http://blackrockdigital.io/) for creating the [Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio) template that this site is heavily based off.
 - [The Aion Foundation](https://aion.network/) for guidance and article help.
+- [Netlify](https://www.netlify.com/) for hosting the site for freebies.
