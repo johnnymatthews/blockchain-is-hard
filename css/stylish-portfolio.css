@@ -1,17 +1,9 @@
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.1 (https://startbootstrap.com/template-overviews/stylish-portfolio)
  * Copyright 2013-2018 Start Bootstrap
+ * Edited a teeny weeny bit by github.com/mohnjatthews
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
-
-/* I'm really bad with colour schemes, so just change these values and that should do. */
-
-:root {
-    --main: #E24E42;
-    --second: #E9B000;
-    --third: #008F95;
-    --fourth: #E86E80;
-}
 
 body, html {
     width: 100%;
@@ -42,31 +34,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
-}
-
-.scroll-to-top {
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    display: none;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: white;
-    background: rgba(52, 58, 64, 0.5);
-    line-height: 45px;
-}
-
-.scroll-to-top:focus, .scroll-to-top:hover {
-    color: white;
-}
-
-.scroll-to-top:hover {
-    background: #343a40;
-}
-
-.scroll-to-top i {
-    font-weight: 800;
 }
 
 .masthead {
@@ -102,88 +69,6 @@ h1, h2, h3, h4, h5, h6 {
     .masthead h1 {
         font-size: 5.5rem;
     }
-}
-
-/* Side Menu */
-
-#sidebar-wrapper {
-    position: fixed;
-    z-index: 2;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    -webkit-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-    -webkit-transform: translateX(250px);
-    transform: translateX(250px);
-    background: var(--main);
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.sidebar-nav li.sidebar-nav-item a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    padding: 15px;
-}
-
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.sidebar-nav li a:active, .sidebar-nav li a:focus {
-    text-decoration: none;
-}
-
-.sidebar-nav>.sidebar-brand {
-    font-size: 1.2rem;
-    background: rgba(52, 58, 64, 0.1);
-    height: 80px;
-    line-height: 50px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-}
-
-.sidebar-nav>.sidebar-brand a {
-    color: #fff;
-}
-
-.sidebar-nav>.sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-
-.menu-toggle {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    color: #fff;
-    background: rgba(52, 58, 64, 0.5);
-    line-height: 50px;
-    z-index: 999;
-}
-
-.menu-toggle:focus, .menu-toggle:hover {
-    color: #fff;
-}
-
-.menu-toggle:hover {
-    background: #343a40;
 }
 
 .portfolio-item {
@@ -265,7 +150,8 @@ a {
 }
 
 a:hover, a:focus, a:active {
-    color: var(--second);
+    color: var(--main);
+    text-decoration: underline;
 }
 
 .btn-primary {
@@ -300,18 +186,18 @@ a:hover, a:focus, a:active {
     font-weight: 700;
 }
 
+.bg-first {
+    background-color: var(--first);
+}
+
 .bg-second {
-    background-color: var(--second) !important;
+    background-color: var(--second);
 }
 
 .bg-third {
-    background-color: var(--third) !important;
+    background-color: var(--third);
 }
 
-.text-primary {
-    color: var(--main) !important;
-}
-
-.text-secondary {
-    color: var(--third) !important;
+.bg-fourth {
+    background-color: var(--fourth);
 }
