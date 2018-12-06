@@ -241,7 +241,15 @@ button {
 button:hover {
     background: #0b7dda;
 }
-  
+
+@media (max-width: 992px) {
+    input[type=text] {
+        width: 50%
+    }
+    button {
+        width: 50%;
+    }
+}
 
 /* List.js stuff */
 
