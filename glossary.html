@@ -31,36 +31,24 @@
         <div class="overlay"></div>
     </header>
 
-    <!-- About -->
-    <section class="content-section bg-third" id="about">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-lg-10 mx-auto text-white">
-                    <form class="example" action="action_page.php">
-                        <input type="text" placeholder="Looking for something?" name="search">
-                        <button type="submit">Search</button>
-                    </form>
+    <!-- Search holder -->
+    <div id="items">
+
+        <!-- About -->
+        <section class="content-section bg-third" id="about">
+            <div class="container text-center text-white">
+                <div class="content-section-heading text-center">
+                    <input type="text" class="search" placeholder="Yolo" />
+                    <button id="sort_order_button" class="sort" data-sort="item-name" onclick="changeSortDirection()">
+                        Sort by Descending
+                    </button>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Items -->
-    <section class="content-section" id="learn">
-        <div class="container">
-            <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Buckle up kids and get ready to</h3>
-                <h2 class="mb-5">Learn Stuff</h2>
-            </div>
-
-
-
-
-            <div id="items">
-                <input class="search" placeholder="Yolo" />
-                <button class="sort" data-sort="item-name">
-                    Sort by name
-                </button>
+        <!-- Items -->
+        <section class="content-section" id="learn">
+            <div class="container">
 
                 <ul class="list">
                     <li>
@@ -122,9 +110,8 @@
                 </ul>
 
             </div>
-
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- Call to Action -->
     <section class="content-section bg-second text-white" id="suggestions">
@@ -152,15 +139,22 @@
     </footer>
 </body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+<script src="node_modules/list.js/dist/list.min.js"></script>
 
 <script>
-
-    var options = {
-        valueNames: ['item-name', 'item-body']
+    const options = {
+        valueNames: ['item-name', 'item-tags']
     };
+    const userList = new List('items', options);
+    const button = document.querySelector('#sort_order_button');
 
-    var userList = new List('items', options);
+    function changeSortDirection() {
+        if (button.innerText == "Sort by Descending") {
+            button.innerText = "Sort by Ascending";
+        } else {
+            button.innerText = "Sort by Descending";
+        }
+    }
 
 </script>
 

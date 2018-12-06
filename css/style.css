@@ -218,7 +218,7 @@ a:hover, a:focus, a:active {
 
 /* Searchbar stuff */
   
-form.example input[type=text] {
+input[type=text] {
     padding: 10px;
     font-size: 17px;
     border: none;
@@ -227,7 +227,7 @@ form.example input[type=text] {
     background: var(--second);
 }
   
-form.example button {
+button {
     float: left;
     width: 20%;
     padding: 10px;
@@ -238,15 +238,10 @@ form.example button {
     cursor: pointer;
 }
   
-form.example button:hover {
+button:hover {
     background: #0b7dda;
 }
   
-form.example::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 /* List.js stuff */
 
