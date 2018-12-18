@@ -1,3 +1,5 @@
+![The Blockchain is Hard logo](img/blockchain-is-hard-icon-128.png)
+
 # Blockchain Is Hard
 
 It's pretty much all in the title really. Blockchain is hard. So I've thrown together this site to help people understand blockchain concepts. I'm hoping that every article will be self-contained, and won't rely on the reader to have read other parts of the site first, although I don't know how feasible this is. I'm also trying to not use any acronyms. Acronyms are dumb.
