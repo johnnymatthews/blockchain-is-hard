@@ -4,8 +4,6 @@ It's pretty much all in the title really. Blockchain is hard. So I've thrown tog
 
 [The site it live right now, go have a look!](https://blockchainishard.com)
 
-You can view a [working example copy of the site right here](https://naughty-nightingale-a24cc5.netlify.com/). It's being [hosted by Netlify](https://www.netlify.com/), so big thanks to them.
-
 ## Contribute
 
 If you wanna help me out and write an article or whatever:
