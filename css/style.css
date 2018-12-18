@@ -224,7 +224,7 @@ input[type=text] {
     border: none;
     float: left;
     width: 80%;
-    background: var(--second);
+    background: white;
 }
   
 button {
@@ -239,7 +239,7 @@ button {
 }
   
 button:hover {
-    background: #0b7dda;
+    background: var(--second);
 }
 
 @media (max-width: 992px) {
