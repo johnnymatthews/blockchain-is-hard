@@ -12,7 +12,7 @@ If you wanna help out and write an article or whatever:
 
 1. Clone this repo.
 2. Take a look in `glossary.html` and find the sections that are commented out. Feel free to fill out one of those, or add one of your own!
-3. If you want to create your own concept article, write your article and upload the markdown into the `markdown` folder.
+3. If you want to create your own concept article, upload the it into the `new-articles` folder.
 4. Create a pull request for all your stuff.
 5. We'll sort out any formatting issues and merge everything in!
 
