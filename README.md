@@ -12,9 +12,11 @@ If you wanna help out and write an article or whatever:
 
 1. Clone this repo.
 2. Take a look in `glossary.html` and find the sections that are commented out. Feel free to fill out one of those, or add one of your own!
-3. If you want to create your own concept article, upload the it into the `new-articles` folder.
+3. If you want to create your own concept article, create a new folder with the title of your article in the `new-articles` folder. Make sure to include any images or gifs that go along with your article!
 4. Create a pull request for all your stuff.
 5. We'll sort out any formatting issues and merge everything in!
+
+There isn't any form of content management system or anything. The whole site it just plain HTML. 
 
 ## Suggestions
 
