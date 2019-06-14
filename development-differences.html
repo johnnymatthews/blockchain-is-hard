@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="What mining is in terms of blockchains, and how miners make money.">
+    <meta name="author" content="blockchainishard.com">
+    <title>Blockchain is Hard: Development Differences</title>
+    <link href="assets/css/color.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+        type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Header -->
+    <header class="masthead d-flex" style="background-image: url('assets/img/development-differences/banner.jpg')">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1"><a href="index.html">Development Differences</a></h1>
+            <h3 class="mb-5">
+                <em>There's a few differences between regular development, and making stuff on the blockchain.</em>
+            </h3>
+        </div>
+        <div class="overlay"></div>
+    </header>
+
+    <section class="content-section article">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 id="compiling">Compiling</h2>
+<p>First up, blockchain applications need to be compiled before they can run. This isn't specific, and may not be an issue for any current Java or C++ developers out there. There's plenty of languages that require programs to be compiled before they can run. However, developers from a web development background may consider this a substantial change in their workflow. The actual process of compiling your code is very simple, however, the way to test things changes slightly. In a standard JavaScript environment you can just throw a <code>console.log</code> into the script, refresh the webpage, and view the browser console to see the outcome. This is less easy to do in Java development. As such, there is a heavier reliance on <em>code linters</em> and testing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section bg-secondary text-white article">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 id="test-driven-development">Test Driven Development</h2>
+<p>Due to the nature of blockchain development, things take time. Requests take time to be sent to a node, responses take time to be calculated, and transactions take time to be propagated through the network. Because of this, test-driven development is ket to creating stable, efficient, and useful applications on the blockchain. The Aion platform has testing built in, with unit tests being created automatically as soon as you create your project!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section bg-third text-white article">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 id="permenancy">Permenancy</h2>
+<p>For a lot of people and applications, the idea of a permanent, immutable database is one of the main reasons to use blockchain technology. It should also be noted that this can cause some issues, especially in poorly designed or untested software. The only strengthens the importance of proper testing and quality assurance processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section bg-fourth text-white article">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 id="accounts-and-funding">Accounts and Funding</h2>
+<p>In order to deploy and call applications on the blockchain, you need funds called <em>coins</em> or <em>tokens</em>. To get these coins on a test network, you can use one of the free <em>faucets</em> available. These are essentially websites that give you free <em>test coins</em> to deploy your application to a test network. These coins have no value, as the test networks often get reset, and everything on them is wiped clean.</p>
+<p>To get coins in the first place though, you need to have an account. There are several ways to create accounts, the easiest being through a browser wallet. These are extensions to Chrome or Firefox that allow you to interact with your blockchain accounts through your browser.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section bg-main article">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 id="speed">Speed</h2>
+<p>Speed is a glaring issue with blockchain development. The more requests that are being made to a network, the slower the network generally works. There are processes in place to help this issue, but for the most part, blockchains perform substantially slower than regular networks. Because of this, developers need to put some thought into how their users are going to interact with their application, and what to do when waiting for the network to respond to a request. One solution to this is to make good use of asynchronous processes. They've been around for a while, and they've drastically improved the speed of transactions and processes all around the tech world. They're one of the foundations of blockchain applications. With long processing times sometimes up into the minutes, developers can't expect users to wait until things are done. This is why proper UX and asynchronous process are imperative.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section bg-secondary text-white article">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 id="abis">ABIs</h2>
+<p>When a blockchain application is compiled, and an application binary interface (ABI) is created. It is essentially a list of all the methods and variables available within the application. While you could just share the source code itself, it can often be a hassle to scroll through an application with hundreds of lines of code, just to find the variable names you're looking for. Instead, ABIs let you easily share the available functions and variables with other developers. They're kind of like mini-docs for your application.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section bg-third text-white" id="suggestions">
+        <div class="container text-center">
+            <h2 class="mb-4"><i>"I have a suggestion for this site."</i></h2>
+            <a href="https://github.com/mohnjatthews/blockchain-is-hard/issues" class="btn btn-xl btn-dark">Comment on
+                GitHub</a>
+        </div>
+    </section>
+
+    <footer class="footer text-center bg-fourth text-white">
+        <div class="container">
+            <p class="small mb-0">If I were to put copyright 2018 here, would it actually be legally binding? Like,
+                does this section actually mean anything? Or is it just something web devs have been throwing at the
+                bottom of their sites because all the other web devs do it? Just seems weird to me. Also, this entire
+                site design was ripped from one of the default Bootstrap 4 templates. Thanks to those guys at Twitter
+                for sorting us out. Oh yeah, and thanks to the Aion Foundation for letting us make this site on company
+                time. Totally a worthwhile investment, cheers Mike.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
